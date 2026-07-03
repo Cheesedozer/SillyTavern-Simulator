@@ -1,0 +1,9 @@
+[
+  {
+    "match": { "contains": "please call the tool" },
+    "toolCalls": [
+      { "id": "call_1", "type": "function", "function": { "name": "tool_echo", "arguments": "{\"message\":\"hello from LLM\"}" } }
+    ]
+  },
+  { "content": "Tool call complete." }
+]

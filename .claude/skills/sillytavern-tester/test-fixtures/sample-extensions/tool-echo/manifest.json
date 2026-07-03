@@ -1,0 +1,9 @@
+{
+  "display_name": "Tool Echo (QA Fixture)",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "author": "sillytavern-tester",
+  "version": "1.0.0"
+}

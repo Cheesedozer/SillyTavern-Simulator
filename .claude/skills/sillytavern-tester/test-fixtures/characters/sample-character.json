@@ -1,0 +1,5 @@
+{
+  "name": "QA Fixture Character",
+  "description": "A minimal placeholder character used only for automated extension testing. Not meant to be interesting -- just consistent.",
+  "firstMessage": "Hello! I am a placeholder test character."
+}
