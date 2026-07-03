@@ -1,0 +1,17 @@
+{
+  "name": "sillytavern-tester",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude Code skill: boots a real SillyTavern instance, installs a third-party extension from a git URL, exercises it, and reports bugs with screenshots and logs.",
+  "scripts": {
+    "bootstrap": "node src/cli/bootstrap.mjs",
+    "install-extension": "node src/cli/install-extension.mjs",
+    "test": "node src/cli/run-scenario.mjs",
+    "reset": "node src/cli/reset.mjs",
+    "teardown": "node src/cli/teardown.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

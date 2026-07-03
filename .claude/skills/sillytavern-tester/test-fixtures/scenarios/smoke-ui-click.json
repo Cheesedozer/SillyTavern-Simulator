@@ -1,0 +1,7 @@
+{
+  "extensionUrl": "https://github.com/city-unit/st-extension-example",
+  "steps": [
+    { "type": "click", "selector": "text=Extension Example", "label": "Expand the Extension Example panel" },
+    { "type": "click", "selector": "text=Example Button", "label": "Click the example button" }
+  ]
+}

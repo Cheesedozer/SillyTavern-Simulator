@@ -1,0 +1,7 @@
+{
+  "mockScenario": "test-fixtures/scenarios/tool-call-echo.mock.json",
+  "installToolEchoFixture": true,
+  "steps": [
+    { "type": "message", "text": "please call the tool", "label": "Send a message that triggers the scripted tool call" }
+  ]
+}
